@@ -1,0 +1,27 @@
+{
+  "name": "study_webpack",
+  "version": "1.0.0",
+  "description": "webpackの学習用",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawausomando/study_webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawausomando/study_webpack/issues"
+  },
+  "homepage": "https://github.com/kawausomando/study_webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
