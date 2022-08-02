@@ -7,11 +7,8 @@ export class Human {
         this.age = age;
     }
 
-    getName() {
-        return this.name;
-    }
-
-    getAge() {
-        return this.age;
+    printProfile() {
+        console.log(`name: ${this.name}`);
+        console.log(`age: ${this.age}`);
     }
 }
